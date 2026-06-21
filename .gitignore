@@ -1,7 +1,7 @@
 # Ignore Arduino/ESP32 compiled binaries
-wifi_test/*.bin
-wifi_test/*.elf
-wifi_test/*.hex
+EspScopeGen/*.bin
+EspScopeGen/*.elf
+EspScopeGen/*.hex
 
 # Ignore temp files and notes
 كلام

@@ -30,8 +30,8 @@ This project turns your ESP32 into a portable lab instrument. It hosts a modern,
 ## 🛠️ Project Structure
 
 ```text
-├── wifi_test/
-│   ├── wifi_test.ino       # Main Arduino/C++ firmware
+├── EspScopeGen/
+│   ├── EspScopeGen.ino     # Main Arduino/C++ firmware
 │   ├── page_fixed.html     # Web UI source code (HTML/CSS/JS)
 │   ├── page.h              # Hex-encoded Web UI compiled for C++
 │   ├── gen_hex.py          # Python utility to compile HTML to page.h
@@ -49,15 +49,15 @@ This project turns your ESP32 into a portable lab instrument. It hosts a modern,
 * **Python 3** (if you want to modify the Web UI).
 
 ### 2. Modifying the Web UI (Optional)
-If you make changes to `wifi_test/page_fixed.html`, you must recompile it to `page.h` before uploading:
+If you make changes to `EspScopeGen/page_fixed.html`, you must recompile it to `page.h` before uploading:
 ```bash
-python wifi_test/gen_hex.py
+python EspScopeGen/gen_hex.py
 ```
 
 ### 3. Compilation & Upload
 You can compile and upload the project using Arduino IDE, or via the Arduino CLI with the following command:
 ```powershell
-arduino-cli compile --upload --port COM5 --fqbn esp32:esp32:esp32wrover wifi_test/wifi_test.ino
+arduino-cli compile --upload --port COM5 --fqbn esp32:esp32:esp32wrover EspScopeGen/EspScopeGen.ino
 ```
 *(Make sure to adjust the COM port and FQBN according to your setup).*
 

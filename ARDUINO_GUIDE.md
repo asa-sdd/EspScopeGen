@@ -24,7 +24,7 @@
 
 ### 3. فتح المشروع
 1. قم بتحميل أو عمل Clone للمستودع على جهازك.
-2. افتح مجلد `wifi_test` وافتح ملف `wifi_test.ino` باستخدام برنامج Arduino IDE.
+2. افتح مجلد `EspScopeGen` وافتح ملف `EspScopeGen.ino` باستخدام برنامج Arduino IDE.
 
 ### 4. إعداد خيارات البوردة (Board Settings)
 اذهب إلى قائمة **Tools** وقم بضبط الإعدادات التالية:
@@ -69,7 +69,7 @@ If you haven't installed ESP32 support in your Arduino IDE yet:
 
 ### 3. Opening the Project
 1. Clone or download this repository.
-2. Open the `wifi_test` folder and double-click `wifi_test.ino` to open it in Arduino IDE.
+2. Open the `EspScopeGen` folder and double-click `EspScopeGen.ino` to open it in Arduino IDE.
 
 ### 4. Board Configuration
 Under the **Tools** menu, configure the following settings:
