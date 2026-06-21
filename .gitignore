@@ -1,0 +1,18 @@
+# Ignore Arduino/ESP32 compiled binaries
+wifi_test/*.bin
+wifi_test/*.elf
+wifi_test/*.hex
+
+# Ignore temp files and notes
+كلام
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
